@@ -13,17 +13,17 @@ driver.get('') # survey link
 time.sleep(2)
 
 # district
-distval = "PURNEA"
+distval = " "
 district = driver.find_element(By.CLASS_NAME, "QR-QID1")
 district.send_keys(distval)
 
 # subdivision
-subdval = "ARARIA"
+subdval = " "
 subdivision = driver.find_element(By.CLASS_NAME, "QR-QID2")
 subdivision.send_keys(subdval)
 
 # anchal
-anchalval = "PALASI"
+anchalval = " "
 anchal = driver.find_element(By.CLASS_NAME, "QR-QID3")
 anchal.send_keys(anchalval)
 
@@ -33,7 +33,7 @@ devblock = driver.find_element(By.CLASS_NAME, "QR-QID33")
 devblock.send_keys(devblockval)
 
 # revenue thana
-revval = "ARARIA-contd."
+revval = " "
 rev = driver.find_element(By.CLASS_NAME, "QR-QID4")
 rev.send_keys(revval)
 
